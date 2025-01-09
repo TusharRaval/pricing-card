@@ -1,3 +1,6 @@
+# live link:- https://calm-tanuki-6e6639.netlify.app/
+# price-card
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
