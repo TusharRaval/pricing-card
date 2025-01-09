@@ -1,0 +1,113 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Price Section */
+.price-section {
+    background-color: #F4EDD3;
+    padding: 100px 0;
+    overflow: hidden;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-section h2 {
+    color: #4C585B;
+    margin-bottom: 150px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Price Cards */
+.price-card {
+    background: linear-gradient(135deg, #A5BFCC, #7E99A3);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    border: 5px solid transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price-card:hover {
+    transform: translateY(-10px);
+}
+
+.popular {
+    border: 3px solid #FFD700;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* 3D Button */
+.btn-3d {
+    background: rgba(76, 88, 91, 0.8);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-3d:hover {
+    background: rgba(76, 88, 91, 1);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .price-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .price-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .price-card {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+   .p{
+    padding-bottom: 20px;
+    }
+   
+}
